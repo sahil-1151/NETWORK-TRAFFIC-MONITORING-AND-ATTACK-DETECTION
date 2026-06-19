@@ -1,13 +1,7 @@
-"""
-Network Traffic Monitoring and Attack Detection System
+from packet_sniffer import start_capture
 
-Author: Sahil
-Description: A lightweight Intrusion Detection System (IDS) for monitoring network traffic and detecting attacks.
-
-"""
-
-def main():
-    print("Network Traffic Monitoring and Attack Detection System")
-
+# main file
 if __name__ == "__main__":
-    main()
+    start_capture()
+
+
